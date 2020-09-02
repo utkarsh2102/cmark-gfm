@@ -1,0 +1,83 @@
+cmark-gfm (0.29.0.gfm.0-6) unstable; urgency=medium
+
+  * Use <stdbool.h> directly instead of "config.h". (Closes: #969212)
+
+ -- Keith Packard <keithp@keithp.com>  Wed, 02 Sep 2020 10:25:33 -0700
+
+cmark-gfm (0.29.0.gfm.0-5) unstable; urgency=medium
+
+  * Install header files in -dev packages. (Closes: #968709)
+  * Fix .symbols files for new upstream version.
+  * Install libcmark-gfm.pc in arch directory
+
+ -- Keith Packard <keithp@keithp.com>  Fri, 28 Aug 2020 10:24:17 -0700
+
+cmark-gfm (0.29.0.gfm.0-4) unstable; urgency=medium
+
+  * Add patch to make tests compatible with Python 3.8
+
+ -- Keith Packard <keithp@keithp.com>  Mon, 09 Mar 2020 13:16:13 -0700
+
+cmark-gfm (0.29.0.gfm.0-3) unstable; urgency=medium
+
+  * Add patch increasing pathological test limit to 10s for sparc64
+
+ -- Keith Packard <keithp@keithp.com>  Tue, 17 Dec 2019 13:33:53 -0800
+
+cmark-gfm (0.29.0.gfm.0-2) unstable; urgency=medium
+
+  * Merge upstream fix for tasklist on MSB machines (Closes: #944652)
+
+ -- Keith Packard <keithp@keithp.com>  Mon, 16 Dec 2019 20:37:41 -0800
+
+cmark-gfm (0.29.0.gfm.0-1) unstable; urgency=medium
+
+  * Upstream version 0.29.0.gfm.0
+  * Change 'debian/watch' to look for upstream tags including 'gfm'
+  * Replace large file support for 32-bit builds with upstream version
+
+ -- Keith Packard <keithp@keithp.com>  Mon, 22 Apr 2019 11:26:50 -0700
+
+cmark-gfm (0.28.3.gfm.20-3) unstable; urgency=medium
+
+  * Mark libraries as Multi-Arch: same
+
+ -- Keith Packard <keithp@keithp.com>  Sat, 09 Mar 2019 19:23:07 +0100
+
+cmark-gfm (0.28.3.gfm.20-2) unstable; urgency=medium
+
+  * Change debian/watch to monitor git tags instead of tar.gz files
+
+ -- Keith Packard <keithp@keithp.com>  Sat, 09 Mar 2019 17:00:52 +0100
+
+cmark-gfm (0.28.3.gfm.20-1) unstable; urgency=medium
+
+  * Upstream version 0.28.3.gfm.20
+  * Mark library dependency bug closed. (Closes: #911049)
+  * Add LFS support.
+
+ -- Keith Packard <keithp@keithp.com>  Sat, 09 Mar 2019 11:29:52 +0100
+
+cmark-gfm (0.28.3.gfm.19-3) unstable; urgency=medium
+
+  * Add library dependencies to -dev packages
+
+ -- Keith Packard <keithp@keithp.com>  Tue, 23 Oct 2018 09:50:25 -0700
+
+cmark-gfm (0.28.3.gfm.19-2) unstable; urgency=medium
+
+  * Add @builddeps@ to tests/control
+
+ -- Keith Packard <keithp@keithp.com>  Mon, 22 Oct 2018 18:14:55 -0700
+
+cmark-gfm (0.28.3.gfm.19-1) unstable; urgency=medium
+
+  * Upstream version 0.28.3.gfm.19
+
+ -- Keith Packard <keithp@keithp.com>  Mon, 22 Oct 2018 13:18:32 -0700
+
+cmark-gfm (0.28.3.gfm.17-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #894271)
+
+ -- Keith Packard <keithp@keithp.com>  Mon, 08 Oct 2018 11:08:01 -0700
