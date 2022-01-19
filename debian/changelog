@@ -1,3 +1,15 @@
+cmark-gfm (0.29.0.gfm.2-1ubuntu.really.0.29.0.gfm.0) jammy; urgency=medium
+
+  * No-change rebuild of 0.29.0.gfm.0-6 for Jammy.
+    The new version, 0.29.0.gfm.2-1, is a SONAME bump
+    and causes a regression in pandoc, pandoc-citeproc,
+    patat, gitit, blogliterately, at least. Therefore,
+    revert to the older version until this is fixed in
+    Debian and then we can have this sync'd here again.
+    (LP: #1958235)
+
+ -- Utkarsh Gupta <utkarsh@ubuntu.com>  Wed, 19 Jan 2022 05:38:01 +0530
+
 cmark-gfm (0.29.0.gfm.0-6) unstable; urgency=medium
 
   * Use <stdbool.h> directly instead of "config.h". (Closes: #969212)
